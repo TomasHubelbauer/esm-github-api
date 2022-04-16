@@ -1,4 +1,4 @@
-import https from 'https';
+import https from 'node:https';
 import promisify from 'https://tomashubelbauer.github.io/esm-github-api/promisify.js';
 import buffer from 'https://tomashubelbauer.github.io/esm-github-api/buffer.js';
 

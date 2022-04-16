@@ -1,4 +1,4 @@
-import https from 'https';
+import https from 'node:https';
 import promisify from './promisify.js';
 import buffer from './buffer.js';
 import makeOptions from './makeOptions.js';

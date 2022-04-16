@@ -1,4 +1,4 @@
-import http from 'http';
+import http from 'node:http';
 
 export default async function buffer(/** @type {http.IncomingMessage} */ response) {
   /** @type {Buffer[]} */

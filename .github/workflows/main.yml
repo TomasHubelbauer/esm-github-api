@@ -1,0 +1,11 @@
+name: main
+on:
+  push:
+  schedule:
+  - cron: "0 0 * * 0"
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Run the test
+      run: node --experimental-network-imports test

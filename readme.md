@@ -6,7 +6,9 @@ This is unfortunately not usable at the moment, `--experimental-network-imports`
 is available now, but it seems as though the dependencies pulled in over HTTP(S)
 cannot in turn depend on built-in Node modules.
 
-I will see if `node:` helps with that.
+I tried using the `node:` protocol to see if it helps, but it does not.
+
+I will revisit this in a year or so and see if it is more usable then.
 
 ## Usage
 
