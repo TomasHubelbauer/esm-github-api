@@ -1,5 +1,13 @@
 # ESM GitHub API
 
+## Status
+
+This is unfortunately not usable at the moment, `--experimental-network-imports`
+is available now, but it seems as though the dependencies pulled in over HTTP(S)
+cannot in turn depend on built-in Node modules.
+
+I will see if `node:` helps with that.
+
 ## Usage
 
 Use `--experimental-network-imports` with Node for HTTP(S) ESM URL support:
